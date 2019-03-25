@@ -22,7 +22,6 @@ public class Tools {
         activity.getSupportActionBar().setDisplayHomeAsUpEnabled(back);
     }
 
-
     /**
      * Función que se encarga de lanzar un activity
      *
@@ -43,4 +42,5 @@ public class Tools {
         intentOpen.putExtra(keyValue, value);
         activity.startActivity(intentOpen);
     }
+
 }
